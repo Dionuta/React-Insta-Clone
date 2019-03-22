@@ -43,13 +43,28 @@ header > img {
 }
 
 .text{
-    margin-left: 22px; 
+    margin-left: 20px;
     margin-bottom: 0px;
+    margin-top: 3px;
+    font-size: medium;
 
 }
 
  .time{
     color: gray;
-    margin-left: 23px;
+    margin-left: 20px;
     margin-top: 5px;
+    font-size: small;
+    border-bottom: 1px solid lightgray;
+    margin-right: 17px;
+ }
+
+ .addComments>input{
+    width: 36rem;
+    margin-left: 22px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 13px;
+    margin-top: 7px;
  }
