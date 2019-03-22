@@ -15,10 +15,11 @@
   }
 
   .pipe {
-    font-size: 32px;
+    font-size: 27px;
     margin-left: 7px;
     margin-right: 7px;
     font-weight: 300;
+    margin-bottom: 5px;
   }
   
   .left, .middle, .right {

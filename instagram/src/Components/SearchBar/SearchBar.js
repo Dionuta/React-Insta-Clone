@@ -6,7 +6,7 @@ import { faCompass, faHeart, faUser } from '@fortawesome/free-regular-svg-icons'
 
 
 
-const SearchBar = () => {
+const SearchBar = (props) => {
     return (
         <div>
             <div className="nav">
@@ -24,6 +24,7 @@ const SearchBar = () => {
                          <input 
                          type="text"
                          placeholder='Search'
+                         onKeyDown={props.searchPosts}
                          />
                      </form>
                 </div>

@@ -57,6 +57,7 @@ header > img {
     font-size: small;
     border-bottom: 1px solid lightgray;
     margin-right: 17px;
+    line-height: 30px;
  }
 
  .addComments>input{
