@@ -3,6 +3,10 @@
     min-height: 56px;
     align-items: center;
     border-bottom: 1px solid #F1F3F5;
+    background: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
   }
 
   .logo {
