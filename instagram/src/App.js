@@ -7,15 +7,15 @@ import PostContainer from './Components/PostContainer/PostContainer';
 class App extends Component {
 
    state ={
-     post: dummyData
+     posts: dummyData
    }
 
   render() {
-    const{post}=this.state;
     return (
       <div>
         <SearchBar />
-        <PostContainer {...post}/>
+        <PostContainer
+         posts={this.state.posts}/>
       </div>
     );
   }

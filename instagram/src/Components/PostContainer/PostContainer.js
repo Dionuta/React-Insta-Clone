@@ -1,11 +1,16 @@
 import React from 'react';
+import Post from './Post'
+import './Post.css'
 
-
-
-const PostContainer = () => {
+const PostContainer = ({posts}) => {
    return (
        <div>
-
+       {posts.map(post => (
+        <Post
+          {...post}
+          key ={post.thumbnailUrl}
+        />
+      ))}
        </div>
    )
 

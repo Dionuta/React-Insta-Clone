@@ -1,0 +1,55 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 119px;
+}
+
+.container{
+    border: black solid;
+    width: 618px;
+    height: auto;
+}
+
+header {
+    display: flex;
+}
+
+header > img {
+    height: 42px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.media > img{
+    width: 618px;
+    margin-bottom: 12px;
+}
+
+
+.likeWrapper>p{
+    margin: 7px 19px;
+}
+
+.likesButtons{
+    margin-left: 11px
+}
+.likesButtons > button{
+   margin-right: 8px;
+   font-size: 27px;
+   background: none;
+   border: none;
+   outline:none;
+
+}
+
+.text{
+    margin-left: 22px; 
+    margin-bottom: 0px;
+
+}
+
+ .time{
+    color: gray;
+    margin-left: 23px;
+    margin-top: 5px;
+ }
